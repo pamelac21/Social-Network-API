@@ -1,13 +1,18 @@
 # Social-Network-API
 
+
 ## Description
+
 An API for a social network web application where users can share their thoughts, react to friends’ thoughts, and create a friend list.
 
 
 ## Tech Used
-MongoDB
-Mongoose
-Express
+
+[MongoDB](https://www.mongodb.com/)
+
+[Mongoose](https://www.npmjs.com/package/mongoose)
+
+[Express](https://www.npmjs.com/package/express)
 
 
 ## Criteria
@@ -34,13 +39,8 @@ THEN I am able to successfully create and delete reactions to thoughts and add a
 ![Deletes](https://user-images.githubusercontent.com/87335354/143952311-87dd3704-87f8-443f-b2d1-7ae87a71937e.gif)
 
 
-
 ## Contributing [![GitHub](https://badgen.net/badge/icon/github?icon=github&label)](https://github.com)
 
 [Pamela](https://github.com/pamelac21)
 
 [Email me](pamelac021@gmail.com)
-
-
-
-
