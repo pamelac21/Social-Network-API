@@ -39,6 +39,13 @@ THEN I am able to successfully create and delete reactions to thoughts and add a
 ![Deletes](https://user-images.githubusercontent.com/87335354/143952311-87dd3704-87f8-443f-b2d1-7ae87a71937e.gif)
 
 
+[BONUS](https://watch.screencastify.com/v/eI9KStrT6YrHKrXl54Rz)
+
+`Application deletes a user's associated thoughts when the user is deleted.`
+
+![BONUS](https://user-images.githubusercontent.com/87335354/143955029-5388f1bb-45c0-4da8-ac28-07654be3661a.gif)
+
+
 ## Contributing [![GitHub](https://badgen.net/badge/icon/github?icon=github&label)](https://github.com)
 
 [Pamela](https://github.com/pamelac21)
