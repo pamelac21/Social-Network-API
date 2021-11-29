@@ -1,4 +1,5 @@
 const { Schema, model } = require("mongoose");
+const Thought = require("./Thought");
 
 const UserSchema = new Schema(
   {
@@ -46,6 +47,19 @@ UserSchema.virtual("friendCount").get(function () {
   return this.friends.length;
 });
 
+UserSchema.post("findOneAndDelete", function (doc) {
+  const thoughts = doc.thoughts;
+  for (let i = 0; i < thoughts.length; i++) {
+    Thought.findOneAndDelete({ _id: thoughts[i] })
+      .then((dbThoughtData) => {
+        if (!dbThoughtData) {
+          return new Error("No thought with this id!");
+        }
+        return dbThoughtData;
+      })
+      .catch((err) => res.json(err));
+  }
+});
 
 const User = model("User", UserSchema);
 
